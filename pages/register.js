@@ -1,7 +1,7 @@
 import { Card, Form, Button, Alert } from "react-bootstrap";
 import { useState } from "react";
 import { useRouter } from "next/router";
-import { registerUser } from "@/pages/lib/authenticate";
+import { registerUser } from "@/lib/authenticate";
 import { useAtom } from "jotai";
 import { favouritesAtom, searchHistoryAtom } from "@/store";
 

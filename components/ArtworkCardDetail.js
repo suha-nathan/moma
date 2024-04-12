@@ -5,7 +5,7 @@ import Error from "next/error";
 import { useEffect, useState } from "react";
 import { useAtom } from "jotai";
 import { favouritesAtom } from "@/store";
-import { addToFavourites, removeFromFavourites } from "@/pages/lib/userData";
+import { addToFavourites, removeFromFavourites } from "@/lib/userData";
 
 export default function ArtworkCardDetail({ objectID }) {
   const { data, error, isLoading } = useSWR(

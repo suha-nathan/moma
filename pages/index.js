@@ -1,15 +1,3 @@
-/**********************************************************************************
- * WEB422 – Assignment 6
- *
- *  I declare that this assignment is my own work in accordance with Seneca's
- *  Academic Integrity Policy:
- *
- *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
- *
- *  Name: Padmanathan Suhasini Student ID: 116577222 Date: 10 April 2024
- *
- *********************************************************************************/
-
 import { Image } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 

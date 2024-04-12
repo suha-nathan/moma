@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { isAuthenticated } from "@/pages/lib/authenticate";
+import { isAuthenticated } from "@/lib/authenticate";
 import { favouritesAtom, searchHistoryAtom } from "@/store";
 import { useAtom } from "jotai";
-import { getFavourites, getHistory } from "@/pages/lib/userData";
+import { getFavourites, getHistory } from "@/lib/userData";
 
 const PUBLIC_PATHS = ["/login", "/", "/_error", "/register"];
 

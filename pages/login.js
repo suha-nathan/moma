@@ -2,9 +2,9 @@ import { Card, Form, Button, Alert } from "react-bootstrap";
 import { useState } from "react";
 import { useAtom } from "jotai";
 import { useRouter } from "next/router";
-import { authenticateUser } from "@/pages/lib/authenticate";
+import { authenticateUser } from "@/lib/authenticate";
 import { favouritesAtom, searchHistoryAtom } from "@/store";
-import { getFavourites, getHistory } from "./lib/userData";
+import { getFavourites, getHistory } from "../lib/userData";
 
 export default function Login(props) {
   const [user, setUser] = useState("");

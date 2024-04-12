@@ -3,7 +3,7 @@ import { searchHistoryAtom } from "@/store";
 import { useRouter } from "next/router";
 import { ListGroup, Button } from "react-bootstrap";
 import styles from "@/styles/History.module.css";
-import { removeFromHistory } from "./lib/userData";
+import { removeFromHistory } from "../lib/userData";
 
 export default function History() {
   const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);

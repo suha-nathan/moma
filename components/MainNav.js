@@ -11,8 +11,8 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { useAtom } from "jotai";
 import { searchHistoryAtom } from "@/store";
-import { addToHistory } from "@/pages/lib/userData";
-import { readToken, removeToken } from "@/pages/lib/authenticate";
+import { addToHistory } from "@/lib/userData";
+import { readToken, removeToken } from "@/lib/authenticate";
 
 export default function MainNav() {
   const router = useRouter();
